@@ -1,0 +1,9 @@
+# Virtual environments
+.venv/
+.env/
+
+# pyproject atuff
+**/*.egg-info
+
+# Cache
+**/*__pycache__

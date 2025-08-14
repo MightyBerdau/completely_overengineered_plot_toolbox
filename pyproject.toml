@@ -1,0 +1,24 @@
+[buil-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "copt"
+version = "0.1.0"
+authors = [
+  {name="Martin Berdau", email="martin.berdau1@uol.de" },
+]
+description = "My personal toolbox with completely overengineered tools to visualize data..."
+readme = "README.md"
+requires-python = ">=3.11.3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "seaborn",
+    "tqdm"
+]
