@@ -173,7 +173,7 @@ def fancy_violinplot(
         v_gap: float = 0.0,
         v_linewidth: float = 1.0,
         v_linecolor: str = 'auto',
-        v_cut: float = 0.0,
+        v_cut: float = 2.0,
         v_alpha: float = 0.33,
         v_legend: str | bool = 'auto',
         v_legend_fontsize: float = 12,
@@ -238,7 +238,7 @@ def fancy_violinplot(
         v_cut (float, optional): Distance, in units of bandwidth, to extend
                             the density past extreme datapoints. Set to 0 to
                             limit the violin within the data range.
-                            Defaults to 0.
+                            Defaults to 2.0.
         v_alpha (float, optional): Alpha value of the patch.
                             Defaults to 0.33.
         v_legend (str | bool, optional): How to draw the legend by sns.violinplot,
